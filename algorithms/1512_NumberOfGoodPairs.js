@@ -18,7 +18,7 @@ var numIdenticalPairs = function (nums) {
   }
 
   for (const key in hash) {
-    sum += ((hash[key]) * (hash[key] + 1)) / 2 // triangular number formula
+    sum += ((hash[key]) * (hash[key] + 1)) / 2 // triangular number
   }
 
   return sum
